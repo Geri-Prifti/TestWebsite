@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="Main.css" type="text/css">
+    </head>
+
+    <body>
+        
+        <table class="center">
+            <tr>
+                <td colspan="2"><img src="logo.PNG" alt="Cyber Security Logo" width="300" height="200"></td>
+            </tr>
+            <tr>
+                <th>Emër</th>
+                <td><input type="text" name="emri" required placeholder="Geri"></td>
+            </tr>
+            <tr>
+                <th>Mbiemër</th>
+                <td><input type="text" name="mbiemri" required placeholder="Prifti"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" name="email" required placeholder="Example@gmail.com"></td>
+            </tr>
+            <tr>
+                <th>Numër Tel</th>
+                <td><input type="tel" name="nr_tel" required pattern="[0-9]{10}" placeholder="012 34 56 789"></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" name="password" required "></td>
+            </tr>
+            <tr>
+                <td><label for="qytete"> <strong>Qyteti</strong></label>
+                <td><input list="qytetet" name="qytete" id="qytete">
+                          <datalist id="qytetet">
+                              <option value="Tirane">
+                              <option value="Berat">
+                              <option value="Fier">
+                              <option value="Lushnje">
+                              <option value="Elbasan">
+                              <option value="Durres">
+                              <option value="Gjirokaster">
+                              <option value="Korce">
+                              <option value="Vlore">
+                              <option value="Kukes">
+                              <option value="Diber">
+                              <option value="Lezhe">
+                              <option value="Shkoder">
+                          </datalist>
+                        </td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" ><input type="submit" value="Regjistrohu"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="login.html"><input type="submit" value="Log-in"></a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="https://www.facebook.com/?locale=sq_AL"><img src="Facebook-Logo-2019.png" width="200" height="100"></a></td>
+                
+            </tr>
+            <tr>
+                <td colspan="2"><a href="https://al.linkedin.com/"><img src="linkedin.png"  width="200" height="90"></a></td>
+            </tr>
+        </table>
+    
+    </body>
+</html>
